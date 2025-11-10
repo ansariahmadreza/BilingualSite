@@ -13,7 +13,7 @@ const Markting = () => {
                     <p className="mt-10 text-2xl text-start">{t("Markting")}</p>
                 </div>
 
-                <div className={`${i18n.language === "en" ? "ml-60  max-xl:ml-120" : "max-xl:mr-[-33px] mr-[40px]"} 
+                <div className={`${i18n.language === "en" ? "ml-60  max-xl:ml-120" : "max-xl:mr-[-33px] mr-10"} 
                       flex justify-center w-5xl items-center mt-5 `}>
                     <section className="hover:cursor-pointer  hover:text-purple-800 ">
                         <Link to={"/img1"}>
