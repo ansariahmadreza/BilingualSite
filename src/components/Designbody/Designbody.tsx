@@ -1,0 +1,49 @@
+import { useTranslation } from "react-i18next";
+import Markting from "../Mrktingbody/MarktingBody";
+import { Link } from "react-router-dom";
+
+const Design = () => {
+    const { t, i18n } = useTranslation()
+    return (
+        <div >
+            <div className={`${i18n.language === "en" ? "max-xl:pr-60" : "max-xl:pl-30"}
+              max-xl:w-5xl max-xl:flex max-xl:justify-center 
+                max-xl:mt-25 flex items-center justify-center mt-4 ml-50`}>
+                <section className="hover:cursor-pointer hover:text-purple-800">
+                    <Link to={"/img77"}>
+                        <img className="max-xl:w-100 max-xl:h-95 w-115  h-100 object-cover mb-5
+                     rounded-lg aspect-square" src={t("img1")} />
+                    </Link>
+                    <span className=" text-neutral-500 text-sm ">{t("branding")}</span>
+                    <h3 className="max-xl:w-85 w-90 text-sm">{t("captionImg1")}</h3>
+                </section>
+
+                <section className="mx-17 max-xl:mx-8 hover:cursor-pointer hover:text-purple-800">
+                    <Link to={"/img88"}>
+                        <img className="max-xl:w-100 max-xl:h-95  w-115  h-100
+                     object-cover rounded-xl mb-5.5 aspect-square" src={t("img2")} />
+                    </Link>
+                    <h3 className="max-xl:w-85 w-90 text-sm">{t("captionImg2")}</h3>
+                </section>
+
+                {i18n.language === "en" ? <section className="hover:cursor-pointer hover:text-purple-800">
+                    <Link to={"/img99"}>
+                        <img className="max-xl:w-100 max-xl:h-95  w-115  
+                    h-100 object-cover mt-5 rounded-lg" src={t("img3")} />
+                    </Link>
+                    <h6 className="text-neutral-500 pt-5 text-sm ">{t("branding2")} </h6>
+                    <h3 className="max-xl:85 w-90 text-sm">{t("captionImg3")}</h3>
+                </section> : <section className="hover:cursor-pointer hover:text-purple-800">
+                    <Link to={"/img90"}>
+                        <img className=" w-115  h-100 object-cover mt-0.5 rounded-lg" src={t("img3")} />
+                    </Link>
+                    <h6 className="text-neutral-500 pt-5 text-sm">{t("branding2")} </h6>
+                    <h3 className="w-90 text-sm">{t("captionImg3")}</h3>
+                </section>}
+            </div>
+            <Markting />
+        </div>
+    )
+}
+
+export default Design
