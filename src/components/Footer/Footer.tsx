@@ -22,7 +22,7 @@ const Footer = () => {
 
                     <Link target="_blank" to={"https://www.typescriptlang.org/"} className="px-5">
                         <div className="flex flex-col items-center">
-                            <img className="w-10 h-10 cursor-pointer" src={`${import.meta.env.BASE_URL}/icons/type.png`} alt="typescript" title="typescript" />
+                            <img className="w-10 h-10 cursor-pointer" src={`${import.meta.env.BASE_URL}icons/type.png`} alt="typescript" title="typescript" />
                             <p className="text-[12px] mt-1">Typescript</p>
                         </div>
                     </Link>
