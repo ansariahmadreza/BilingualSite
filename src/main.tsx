@@ -13,7 +13,7 @@ import DescripHeader from "./components/header/Desheader";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <BrowserRouter>
-      <Languageselector></Languageselector>
+      <Languageselector/>
       <div className="mr-50 mt-8 font-bold font-stretch-semi-condensed">
         <Routes>
           <Route path="/" element={<Home />} />

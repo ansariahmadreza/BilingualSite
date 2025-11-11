@@ -10,7 +10,7 @@ export default defineConfig({
     tailwindcss(),   // Tailwind CSS
     tsconfigPaths(), // استفاده از مسیرهای tsconfig
   ],
-  base: '/BilingualSite/',
+  
 
 
 });
