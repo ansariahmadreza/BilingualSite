@@ -35,7 +35,7 @@ const Design = () => {
                     <h3 className="max-xl:85 w-90 text-sm">{t("captionImg3")}</h3>
                 </section> : <section className="hover:cursor-pointer hover:text-purple-800">
                     <Link to={"/img90"}>
-                        <img className=" w-115  h-100 object-cover mt-0.5 rounded-lg" src={"image/3.webp"} />
+                        <img className=" w-115  h-100 object-cover mt-0.5 rounded-lg" src={`${import.meta.env.BASE_URL}image/3.webp`} />
                     </Link>
                     <h6 className="text-neutral-500 pt-5 text-sm">{t("branding2")} </h6>
                     <h3 className="w-90 text-sm">{t("captionImg3")}</h3>
