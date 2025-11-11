@@ -14,7 +14,7 @@ const Header = () => {
                     <h1 className=" text-xl  lg:text-4xl mb-3">{t("titlePage")}</h1>
                     <span className="text-center  text-neutral-500 text-xs lg:text-xl">{t("Description")}</span>
                     <Link to="/DescripHeader">
-                        <img className=" rounded-lg w-5xl   h-132 mt-5 " src={"/image/designthinking.webp"}></img>
+                        <img className=" rounded-lg w-5xl   h-132 mt-5 " src={"image/designthinking.webp"}></img>
                     </Link>
                 </div>
 

@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="flex justify-center items-center">
                     <Link target="_blank" to={"https://react.dev/"} className="px-5">
                         <div className="flex flex-col items-center">
-                            <img className="w-10 h-10 cursor-pointer" src="/icons/react.png" alt="react" title="react" />
+                            <img className="w-10 h-10 cursor-pointer" src="icons/react.png" alt="react" title="react" />
                             <p className="text-[12px] mt-1">React</p>
                         </div>
                     </Link>
@@ -29,14 +29,14 @@ const Footer = () => {
 
                     <Link to={"https://tailwindcss.com/"} target="_blank" className="px-5">
                         <div className="flex flex-col items-center">
-                            <img className="w-15 h-8 cursor-pointer" src="/icons/tailwindcss.png" alt="tailwindcss" title="tailwindcss" />
+                            <img className="w-15 h-8 cursor-pointer" src="icons/tailwindcss.png" alt="tailwindcss" title="tailwindcss" />
                             <p className="text-[12px] mt-1">Tailwindcss</p>
                         </div>
                     </Link>
 
                     <Link to={"https://www.i18next.com/"} target="_blank" className="px-5">
                         <div className="flex flex-col items-center">
-                            <img className="w-10 h-10 cursor-pointer" src="/icons/i18.png" alt="i18next" title="i18next" />
+                            <img className="w-10 h-10 cursor-pointer" src="icons/i18.png" alt="i18next" title="i18next" />
                             <p className="text-[12px] mt-1">i18next</p>
                         </div>
                     </Link>
