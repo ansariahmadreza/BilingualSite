@@ -12,7 +12,7 @@ const Design = () => {
                 <section className="hover:cursor-pointer hover:text-purple-800">
                     <Link to={"/img77"}>
                         <img className="max-xl:w-100 max-xl:h-95 w-115  h-100 object-cover mb-5
-                     rounded-lg aspect-square" src={"/src/data/image/1.webp"} />
+                     rounded-lg aspect-square" src={"public/image/1.webp"} />
                     </Link>
                     <span className=" text-neutral-500 text-sm ">{t("branding")}</span>
                     <h3 className="max-xl:w-85 w-90 text-sm">{t("captionImg1")}</h3>
@@ -21,7 +21,7 @@ const Design = () => {
                 <section className="mx-17 max-xl:mx-8 hover:cursor-pointer hover:text-purple-800">
                     <Link to={"/img88"}>
                         <img className="max-xl:w-100 max-xl:h-95  w-115  h-100
-                     object-cover rounded-xl mb-5.5 aspect-square" src={" /src/data/image/2.avif "} />
+                     object-cover rounded-xl mb-5.5 aspect-square" src={"public/image/2.avif"} />
                     </Link>
                     <h3 className="max-xl:w-85 w-90 text-sm">{t("captionImg2")}</h3>
                 </section>
@@ -29,13 +29,13 @@ const Design = () => {
                 {i18n.language === "en" ? <section className="hover:cursor-pointer hover:text-purple-800">
                     <Link to={"/img99"}>
                         <img className="max-xl:w-100 max-xl:h-95  w-115  
-                    h-100 object-cover mt-5 rounded-lg" src={t("img3")} />
+                    h-100 object-cover mt-5 rounded-lg" src={"public/image/3.webp"} />
                     </Link>
                     <h6 className="text-neutral-500 pt-5 text-sm ">{t("branding2")} </h6>
                     <h3 className="max-xl:85 w-90 text-sm">{t("captionImg3")}</h3>
                 </section> : <section className="hover:cursor-pointer hover:text-purple-800">
                     <Link to={"/img90"}>
-                        <img className=" w-115  h-100 object-cover mt-0.5 rounded-lg" src={"/src/data/image/3.webp"} />
+                        <img className=" w-115  h-100 object-cover mt-0.5 rounded-lg" src={"public/image/3.webp"} />
                     </Link>
                     <h6 className="text-neutral-500 pt-5 text-sm">{t("branding2")} </h6>
                     <h3 className="w-90 text-sm">{t("captionImg3")}</h3>
