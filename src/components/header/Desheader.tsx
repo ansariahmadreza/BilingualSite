@@ -7,7 +7,7 @@ const DescripHeader = () => {
         <div>
             <section className="flex justify  items-center">
                 <div>
-                    <img src={t("imgTitle2")} className={`w-[600px] h-[350px] rounded-2xl  ${i18n.language === "en" ? "ml-[60px]" : "mr-[-60px]"} `} />
+                    <img src={"/src/data/image/designthinking.webp"} className={`w-[600px] h-[350px] rounded-2xl  ${i18n.language === "en" ? "ml-[60px]" : "mr-[-60px]"} `} />
                 </div>
 
                 <div className="ml-[90px]">
