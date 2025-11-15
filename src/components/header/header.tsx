@@ -14,11 +14,11 @@ const Header = () => {
                     <h1 className=" text-xl  lg:text-4xl mb-3">{t("titlePage")}</h1>
                     <span className="text-center  text-neutral-500 text-xs lg:text-xl">{t("Description")}</span>
                     <Link to="/DescripHeader">
-                        <img className=" rounded-lg w-5xl   h-132 mt-5 " src={`${import.meta.env.BASE_URL}image/designthinking.webp`}></img>
+                        <img className=" rounded-lg w-5xl max-md:w-3xl  h-132 mt-5 " src={`${import.meta.env.BASE_URL}image/designthinking.webp`}></img>
                     </Link>
                 </div>
 
-                <div className="text-start max-xl:py-7 max-xl:mt-170 max-xl:absolute max-xl:left-0 font-sans
+                <div className="text-start max-xl:py-7 max-xl:mt-170 max-xl:absolute max-xl:left-0 font-sans max-md:w-2/4
                  max-xl:text-center
                  max-xl:mx-auto
                  max-xl:w-3/4 max-xl:h-fit

@@ -10,7 +10,6 @@ const DescripHeader = () => {
                     <img src={`${import.meta.env.BASE_URL}image/designthinking.webp`} className={`w-[600px] h-[350px] rounded-2xl  ${i18n.language === "en" ? "ml-[60px]" : "mr-[-60px]"} `} />
                 </div>
          
-
                 <div className="ml-[90px]">
                     <p className="text-neutral-600">{t("titleTow")}</p>
                     <p className="font-bold text-2xl w-[400px] py-4">{t("headerTow")}</p>
