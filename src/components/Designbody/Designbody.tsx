@@ -6,7 +6,7 @@ const Design = () => {
     const { t, i18n } = useTranslation()
     return (
         <div>
-            <div className={`${i18n.language === "en" ? "max-2xl:pr-60" : "max-2xl:pl-30"} max-md:grid max-md:grid-cols-1
+            <div className={`${i18n.language === "en" ? "max-2xl:pr-60" : "max-2xl:pl-30"} max-md:grid max-md:grid-cols-2
               max-2xl:w-5xl max-2xl:flex max-2xl:justify-center 
                 max-2xl:mt-25 flex items-center justify-center mt-4 ml-50`}>
                 <section className="hover:cursor-pointer hover:text-purple-800">
