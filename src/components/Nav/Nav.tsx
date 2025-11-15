@@ -40,10 +40,6 @@ const NavDry = () => {
                  rounded-lg">{t("login")}</Link>
                 </nav>
             )}
-
-
-
-
         </div>
     )
 }

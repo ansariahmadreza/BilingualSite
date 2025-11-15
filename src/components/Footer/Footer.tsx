@@ -7,8 +7,8 @@ const Footer = () => {
     const { t, i18n } = useTranslation()
 
     return (
-        <div className={`shadow-lg border-2 border-neutral-200  rounded-2xl w-[1230px] my-5  pt-[60px] h-[300px] 
-        ${i18n.language === "en" ? "ml-[135px] max-2xl:w-[1100px] max-2xl:ml-[25px]" : "mr-[-50px]  max-2xl:mr-[-120px] max-2xl:w-[1100px]"} `}>
+        <div className={`shadow-lg border-2 border-neutral-200  rounded-2xl w-[1230px] my-5  pt-[60px] h-[300px] max-md:h-[250px] max-md:w-[1000px]
+        ${i18n.language === "en" ? "ml-[135px] max-2xl:w-[1100px] max-md:ml-20 max-2xl:ml-[25px]" : "mr-[-50px]  max-2xl:mr-[-120px] max-2xl:w-[1100px]"} `}>
             <div className="text-center">
                 <p className="inline-block pb-5" >{t("tech stack")}</p>
 
