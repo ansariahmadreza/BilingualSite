@@ -40,7 +40,6 @@ const Design = () => {
                     <h6 className="text-neutral-500 pt-5 text-[12px] text-sm">{t("branding2")} </h6>
                     <h3 className="w-90 max-md:w-72 text-sm">{t("captionImg3")}</h3>
                 </section>}
-                
             </div>
             <Markting />
         </div>
