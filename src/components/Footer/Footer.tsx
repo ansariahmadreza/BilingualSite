@@ -8,7 +8,7 @@ const Footer = () => {
 
     return (
         <div className={`shadow-lg border-2 border-neutral-200  rounded-2xl w-[1230px] my-5  pt-[60px] h-[300px] 
-        ${i18n.language === "en" ? "ml-[135px] max-xl:w-[1100px] max-xl:ml-[25px]" : "mr-[-50px]  max-xl:mr-[-120px] max-xl:w-[1100px]"} `}>
+        ${i18n.language === "en" ? "ml-[135px] max-2xl:w-[1100px] max-2xl:ml-[25px]" : "mr-[-50px]  max-2xl:mr-[-120px] max-2xl:w-[1100px]"} `}>
             <div className="text-center">
                 <p className="inline-block pb-5" >{t("tech stack")}</p>
 

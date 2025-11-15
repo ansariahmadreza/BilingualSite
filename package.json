@@ -13,9 +13,12 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "@fortawesome/fontawesome-svg-core": "^7.1.0",
     "@fortawesome/free-solid-svg-icons": "^7.1.0",
     "@fortawesome/react-fontawesome": "^3.1.0",
+    "@mui/material": "^7.3.5",
     "@react-router/dev": "^7.9.5",
     "@remix-run/react": "^2.17.2",
     "ajv": "8",
