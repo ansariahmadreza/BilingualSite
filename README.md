@@ -1,5 +1,7 @@
-# BilingualSite
+BilingualSite
 
-In this portfolio project, the focus has been on bilingual support, and the tools used are React, TypeScript, Tailwind, and i18next.
+In this portfolio project, the main focus is on implementing bilingual support.
+The technologies used include React, TypeScript, Tailwind CSS, and i18next.
 
-Project link [/https://ansariahmadreza.github.io/BilingualSite/](./https://ansariahmadreza.github.io/BilingualSite/)
+Project Link:
+https://ansariahmadreza.github.io/BilingualSite/
