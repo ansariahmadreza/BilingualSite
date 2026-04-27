@@ -5,6 +5,8 @@
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.0-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![i18next](https://img.shields.io/badge/i18next-23.0-26A69A?logo=i18next&logoColor=white)](https://www.i18next.com/)
 
+**Live Demo:** [https://ansariahmadreza.github.io/BilingualSite/](https://ansariahmadreza.github.io/BilingualSite/)
+
 A bilingual portfolio project focused on implementing **internationalization (i18n)**. Built with React, TypeScript, TailwindCSS, and i18next.
 
 ## ✨ Features
@@ -24,7 +26,7 @@ A bilingual portfolio project focused on implementing **internationalization (i1
 
 ## 🚀 Installation & Running
 
-**Prerequisites:** [Node.js](https://nodejs.org/) and [pnpm](https://pnpm.io/) 
+**Prerequisites:** [Node.js](https://nodejs.org/) and [pnpm](https://pnpm.io/) (or npm/yarn)
 
 ```bash
 # 1. Clone the repository
@@ -34,11 +36,7 @@ git clone https://github.com/ansariahmadreza/BilingualSite.git
 cd BilingualSite
 
 # 3. Install dependencies
-npm install
-# or
 pnpm install
 
 # 4. Run development server
-npm start
-# or
 pnpm start
